@@ -1,4 +1,5 @@
-"use client"
+"use client";
+
 import { useState } from "react";
 import Image from 'next/image';
 import AllProducts from "@/components/product-list-page/AllProducts";
@@ -31,7 +32,6 @@ const Product = () => {
               className="rounded-md"
             />
           </div>
-         
         </div>
 
         {/* Product Details Section */}
@@ -87,9 +87,9 @@ const Product = () => {
 export default Product;
 
 const Tabs = () => {
-  const [activeTab, setActiveTab] = useState('description');
+  const [activeTab, setActiveTab] = useState<'description' | 'additional' | 'reviews'>('description');
 
-  const tabContent = {
+  const tabContent: Record<'description' | 'additional' | 'reviews', JSX.Element> = {
     description: (
       <div className="flex flex-col md:flex-row gap-8">
         <div className="w-full md:w-1/3">
