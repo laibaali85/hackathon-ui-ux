@@ -1,5 +1,6 @@
 "use client";
 
+import { ChevronDown } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
@@ -28,25 +29,10 @@ const Header = () => {
             className="text-base flex gap-1 font-semibold hover:underline text-myGry"
           >
             Shop
-            <Image
-              src={"/icons/dropdown1.png"}
-              alt="dropdown"
-              width={7}
-              height={10}
-            />
+            <ChevronDown />
           </Link>
-          <Link
-            href="/about"
-            className="text-base font-semibold hover:underline text-myGry"
-          >
-            About
-          </Link>
-          <Link
-            href="/blog"
-            className="text-base font-semibold hover:underline text-myGry"
-          >
-            Blog
-          </Link>
+        
+         
           <Link
             href="/contact"
             className="text-base font-semibold hover:underline text-myGry"
@@ -54,11 +40,24 @@ const Header = () => {
             Contact
           </Link>
           <Link
-            href="/pages"
+            href="/pricing"
             className="text-base font-semibold hover:underline text-myGry"
           >
-            Pages
+            Pricing
           </Link>
+          <Link
+            href="/product"
+            className="text-base font-semibold hover:underline text-myGry"
+          >
+            Product Details
+          </Link>
+          <Link
+            href="/blog"
+            className="text-base font-semibold hover:underline text-myGry"
+          >
+            Blog
+          </Link>
+         
         </div>
       </div>
 
@@ -87,18 +86,8 @@ const Header = () => {
               height={10}
             />
           </Link>
-          <Link
-            href="/about"
-            className="text-base font-semibold hover:underline text-myGry"
-          >
-            About
-          </Link>
-          <Link
-            href="/blog"
-            className="text-base font-semibold hover:underline text-myGry"
-          >
-            Blog
-          </Link>
+         
+          
           <Link
             href="/contact"
             className="text-base font-semibold hover:underline text-myGry"
@@ -106,11 +95,25 @@ const Header = () => {
             Contact
           </Link>
           <Link
-            href="/pages"
+            href="/pricing"
             className="text-base font-semibold hover:underline text-myGry"
           >
-            Pages
+            Pricing
           </Link>
+          <Link
+            href="/product"
+            className="text-base font-semibold hover:underline text-myGry"
+          >
+            Product Details
+          </Link>
+          <Link
+            href="/blog"
+            className="text-base font-semibold hover:underline text-myGry"
+          >
+            Blog
+          </Link>
+         
+          
         </div>
       </nav>
 

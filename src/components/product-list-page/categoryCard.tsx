@@ -25,7 +25,7 @@ const CategoryCard = ({
           <h1 className="title-font sm:text-2xl text-xl font-semibold  mb-3">
             {category}
           </h1>
-          <p className="leading-relaxed mb-3 text-primary">{itemCount} items</p>
+          <p className="leading-relaxed mb-3 text-white">{itemCount} items</p>
         </div>
       </div>
     </div>
