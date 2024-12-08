@@ -154,7 +154,7 @@ export default function PricingSection() {
           {/* Support Link */}
           <div className="text-center mb-20">
             <Link href="/support" className="text-primary hover:underline">
-              Haven't got your answer? Contact our support
+              Haven&apos;t got your answer? Contact our support
             </Link>
           </div>
           

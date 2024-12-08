@@ -151,8 +151,8 @@ export default function ContactSection() {
                 <div className="w-0 h-0 border-l-[8px] border-l-transparent border-t-[12px] border-t-blue-500 border-r-[8px] border-r-transparent rotate-180" />
               </div>
             </div>
-            <p className="text-sm font-medium text-blue-500 mb-2">WE CAN'T WAIT TO MEET YOU</p>
-            <h2 className="text-3xl font-bold mb-6">Let's Talk</h2>
+            <p className="text-sm font-medium text-blue-500 mb-2">WE CAN&apos;T WAIT TO MEET YOU</p>
+            <h2 className="text-3xl font-bold mb-6">Let&apos;s Talk</h2>
             <Button className="bg-blue-500 hover:bg-blue-600">
               Try it free now
             </Button>
