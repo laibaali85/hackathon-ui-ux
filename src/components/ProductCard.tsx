@@ -18,15 +18,15 @@ const ProductCard = ({
   colors: string[];
 }) => {
   return (
-    <Link href={``} className="text-black">
-      <div className=" p-10">
+    <Link href={``} className="text-black hover:scale-105 duration-200">
+      <div className=" flex justify-center items-center flex-col p-10">
         <div>
           <Image
             className="object-cover object-center rounded "
             alt="product"
             src={imgUrl}
-            width={400}
-            height={600}
+            width={239}
+            height={300}
           />
         </div>
         <div className="flex justify-center items-center flex-col gap-3 mt-3 font-semibold">

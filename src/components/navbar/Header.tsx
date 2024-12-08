@@ -29,9 +29,9 @@ const Header = () => {
           >
             Shop
             <Image
-              src={"/icons/dropdown.png"}
+              src={"/icons/dropdown1.png"}
               alt="dropdown"
-              width={5.71}
+              width={7}
               height={10}
             />
           </Link>

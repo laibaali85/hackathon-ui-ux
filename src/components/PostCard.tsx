@@ -16,7 +16,7 @@ const PostCard = ({
   commentCount: number;
 }) => {
   return (
-    <div className="p-4 text-black">
+    <div className="p-4 text-black hover:scale-105 duration-200">
       <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
         <Image
           className="w-full object-cover object-center"

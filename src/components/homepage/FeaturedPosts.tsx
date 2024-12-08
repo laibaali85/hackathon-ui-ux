@@ -45,7 +45,7 @@ const FeaturedPosts = () => {
           </h6>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-8 space-y-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-12 space-y-3 sm:space-y-0">
           {posts.map((post) => (
             <PostCard
               key={post.id}
