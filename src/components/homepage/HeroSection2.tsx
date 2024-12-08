@@ -7,8 +7,8 @@ const HeroSection2 = () => {
       className="bg-cover bg-center text-white body-font "
       style={{ backgroundImage: "url('/banners/hero-2.jpg')" }}
     >
-      <div className="container mx-auto flex px-5 pt-20 md:flex-row flex-col items-center">
-        <div className="lg:flex-grow md:w-1/2 mt-20 lg:mt-28 md:pl-16 flex flex-col md:items-start md:text-left mb-16 sm:mb-0 items-center text-center gap-6">
+      <div className="container mx-auto flex px-5  md:flex-row flex-col items-center">
+        <div className="lg:flex-grow md:w-1/2  lg:mt-28 md:pl-16 flex flex-col md:items-start md:text-left mb-16 sm:mb-0 items-center text-center gap-6">
           <h3 className="font-semibold">SUMMER 2020</h3>
           <h1 className="title-font text-4xl sm:text-6xl font-bold ">
             Vita Classic <br className="hidden lg:inline-block" />

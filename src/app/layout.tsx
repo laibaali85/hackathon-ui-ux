@@ -20,8 +20,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className}`}>
-        <div className="w-full fixed top-0 left-0 z-10">
-          <div className="w-full px-8 py-6 hidden sm:flex justify-between items-center bg-[#252B42] text-white ">
+        <div className="w-full fixed top-0 left-0 z-10 ">
+          <div className="w-full px-8 py-6 hidden md:flex justify-between items-center bg-[#252B42] text-white ">
             <div className="flex justify-center items-center gap-4">
               <div className="flex justify-center items-center gap-1">
                 <Image
