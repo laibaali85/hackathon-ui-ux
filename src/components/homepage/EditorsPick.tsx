@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
+
 const EditorsPick = () => {
   return (
     <section className="py-16 bg-gray-100">
@@ -48,7 +49,7 @@ const EditorsPick = () => {
   );
 };
 
-const CategoryCard = ({ src, alt, title, className }) => (
+const CategoryCard = ({ src, alt, title, className }:{src:string, alt:string, title:string, className:string}) => (
   <div className={`relative overflow-hidden group ${className}`}>
     <Image
       src={src}

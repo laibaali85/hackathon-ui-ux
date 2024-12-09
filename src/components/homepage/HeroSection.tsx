@@ -1,4 +1,5 @@
 import React from "react";
+import {Button} from "@/components/ui/button";
 
 const HeroSection = () => {
   return (
@@ -16,12 +17,12 @@ const HeroSection = () => {
             We know how large objects will act, <br /> but things on a small
             scale.
           </p>
-          <button
-            type="button"
+          <Button
+           
             className="bg-[#2DC071] px-6 py-3 rounded-md hover:scale-105 duration-200"
           >
             SHOP NOW
-          </button>
+          </Button>
         </div>
       </div>
     </section>

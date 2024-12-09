@@ -4,6 +4,7 @@ import CategoryCard from "@/components/product-list-page/categoryCard";
 import AllProducts from "@/components/product-list-page/AllProducts";
 import Payment from "@/components/product-list-page/Payment";
 import Pagination from "@/components/product-list-page/Pagination";
+import { Button } from "@/components/ui/button";
 
 const page = () => {
   const categories = [
@@ -75,7 +76,7 @@ const page = () => {
             <Image src={"/icons/view2.png"} alt="view" width={14} height={14} />
           </div>
           <div className="flex justify-center items-center gap-4">
-            <button className="flex justify-center items-center gap-2 font-normal border border-gray-300 rounded-lg px-6 py-3">
+            <Button className="flex justify-center items-center gap-2 font-normal border border-gray-300 rounded-lg px-6 py-3">
               Popularity
               <Image
                 src={"/icons/dropdown1.png"}
@@ -83,10 +84,10 @@ const page = () => {
                 width={14}
                 height={14}
               />
-            </button>
-            <button className="bg-myBlue rounded-lg px-6 py-3 text-white">
+            </Button>
+            <Button className="bg-myBlue rounded-lg px-6 py-3 text-white">
               Filter
-            </button>
+            </Button>
           </div>
         </div>
 

@@ -5,6 +5,7 @@ import Image from 'next/image';
 import AllProducts from "@/components/product-list-page/AllProducts";
 import Pagination from "@/components/product-list-page/Pagination";
 import Payment from "@/components/product-list-page/Payment";
+import { Button } from "@/components/ui/button";
 
 const Product = () => {
   return (
@@ -36,18 +37,24 @@ const Product = () => {
 
         {/* Product Details Section */}
         <div className="w-full md:w-1/2 p-4">
-          <h1 className="text-3xl font-semibold mb-2">Floating Phone</h1>
-          <div className="flex items-center mb-4">
-            <span className="text-yellow-400 text-lg mr-2">★★★★★</span>
-            <span className="text-gray-500">(10 Reviews)</span>
-          </div>
-          <p className="text-2xl font-bold text-blue-600 mb-4">$1,139.33</p>
-          <p className="text-green-600 mb-4">Availability: <span className="font-medium">In Stock</span></p>
-          <p className="text-gray-700 mb-4">
-            Met minim Mollie not desert Alamo est sit cliquey pain do met sent.
-            RELIT official consequence door SO RELIT Mollie.
-            Excitation venial consequent sent nostrum met.
-          </p>
+  <h1 className="text-2xl sm:text-3xl font-semibold mb-2">Floating Phone</h1>
+  
+  <div className="flex items-center mb-4">
+    <span className="text-yellow-400 text-lg mr-2">★★★★★</span>
+    <span className="text-gray-500 text-sm sm:text-base">(10 Reviews)</span>
+  </div>
+
+  <p className="text-xl sm:text-2xl font-bold text-blue-600 mb-4">$1,139.33</p>
+  
+  <p className="text-sm sm:text-base text-green-600 mb-4">
+    Availability: <span className="font-medium">In Stock</span>
+  </p>
+
+  <p className="text-sm sm:text-base text-gray-700 mb-4">
+    Met minim Mollie not desert Alamo est sit cliquey pain do met sent.
+    RELIT official consequence door SO RELIT Mollie.
+    Excitation venial consequent sent nostrum met.
+  </p>
 
           {/* Color Options */}
           <div className="flex items-center mb-4">
@@ -62,17 +69,17 @@ const Product = () => {
 
           {/* Buttons */}
           <div className="flex items-center space-x-4">
-            <button className="bg-blue-600 text-white py-2 px-4 rounded-lg">Select Options</button>
-            <button className="text-gray-600 hover:text-gray-900">
+            <Button className="bg-blue-600 text-white py-2 px-4 rounded-lg">Select Options</Button>
+            <Button className="text-gray-600 hover:text-gray-900">
               <svg className="w-6 h-6 inline-block" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7"></path>
               </svg>
-            </button>
-            <button className="text-gray-600 hover:text-gray-900">
+            </Button>
+            <Button className="text-gray-600 hover:text-gray-900">
               <svg className="w-6 h-6 inline-block" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3 3h18v18H3V3z"></path>
               </svg>
-            </button>
+            </Button>
           </div>
         </div>
       </div>
@@ -158,24 +165,24 @@ const Tabs = () => {
     <div className="container mx-auto px-4 py-8">
       {/* Tabs */}
       <div className="flex justify-center border-b mb-8">
-        <button
-          className={`px-4 py-2 font-medium ${activeTab === 'description' ? 'text-black border-b-2 border-pink-500' : 'text-gray-500'}`}
-          onClick={() => setActiveTab('description')}
+        <Button
+           className={`px-4 py-2 font-medium ${activeTab === 'additional' ? 'text-black border-b-2 border-pink-500' : 'text-gray-500'}`}
+          onClick={() => setActiveTab('additional')}
         >
           Description
-        </button>
-        <button
+        </Button>
+        <Button
           className={`px-4 py-2 font-medium ${activeTab === 'additional' ? 'text-black border-b-2 border-pink-500' : 'text-gray-500'}`}
           onClick={() => setActiveTab('additional')}
         >
           Additional Information
-        </button>
-        <button
+        </Button>
+        <Button
           className={`px-4 py-2 font-medium ${activeTab === 'reviews' ? 'text-black border-b-2 border-pink-500' : 'text-gray-500'}`}
           onClick={() => setActiveTab('reviews')}
         >
           Reviews (0)
-        </button>
+        </Button>
       </div>
 
       {/* Content */}

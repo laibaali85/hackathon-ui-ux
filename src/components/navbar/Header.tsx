@@ -17,24 +17,25 @@ import { ChevronDown, User } from "lucide-react";
        <div className="max-w-7xl mx-auto w-full  flex justify-between">
          <h1 className="text-2xl font-bold text-gray-700">Bandage</h1>
          <div className="gap-4  hidden md:flex items-center justify-center mx-auto ">
-           <a href={"#"} className="text-md font-normal">
+           <a href={"/#"} className="text-md font-normal">
              Home
            </a>
-           <a href={"#"} className="text-md font-normal flex items-center">
+           <a href={"/shop"} className="text-md font-normal flex items-center">
              Shop
  <ChevronDown/> 
            </a>
-           <a href={"#"} className="text-md font-normal">
-             About
+           <a href={"/pricing"} className="text-md font-normal">
+             Pricing
+           </a>
+           
+           <a href={"/contact"} className="text-md font-normal">
+             Contact
+           </a>
+           <a href={"/product"} className="text-md font-normal">
+             Product
            </a>
            <a href={"#"} className="text-md font-normal">
              Blog
-           </a>
-           <a href={"#"} className="text-md font-normal">
-             Contact
-           </a>
-           <a href={"#"} className="text-md font-normal">
-             Pages
            </a>
          </div>
          <div className=" gap-4 hidden md:flex">
@@ -64,25 +65,26 @@ import { ChevronDown, User } from "lucide-react";
                  </SheetTitle>
              </SheetHeader>
              <div className=" flex flex-col gap-4 mt-6">
-             <a href={"#"} className="text-md font-normal">
+             <a href={"/"} className="text-md font-normal">
               Home
            </a>
-           <a href={"#"} className="text-md font-normal">
+           <a href={"/shop"} className="text-md font-normal">
              Shop
-<ChevronDown/>
+                    <ChevronDown/>
            </a>
-           <a href={"#"} className="text-md font-normal">
-             About
+           <a href={"/pricing"} className="text-md font-normal">
+             Pricing
            </a>
-           <a href={"#"} className="text-md font-normal">
-             Blog
-           </a>
-           <a href={"#"} className="text-md font-normal">
+           
+           <a href={"/contact"} className="text-md font-normal">
              Contact
           </a>
-          <a href={"#"} className="text-md font-normal">
-            Pages
+          <a href={"/product"} className="text-md font-normal">
+            Product
           </a>
+          <a href={"#"} className="text-md font-normal">
+             Blog
+           </a>
             <div className="mt-4">
             <div className="p-2 gap-2 flex  text-blue-600">
                 <span  > <User/></span>

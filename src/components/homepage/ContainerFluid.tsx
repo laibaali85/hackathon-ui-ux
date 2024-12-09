@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { Button } from "../ui/button";
 
 const ContainerFluid = () => {
   return (
@@ -20,18 +21,18 @@ const ContainerFluid = () => {
             We know how large objects will act, but things on a small scale.
           </p>
           <div className="flex justify-center flex-col sm:flex-row gap-4 font-semibold">
-            <button
+            <Button
               type="button"
               className="bg-[#2DC071] text-white px-8 py-3 rounded-md hover:scale-105 duration-200"
             >
               BUY NOW
-            </button>
-            <button
+            </Button>
+            <Button
               type="button"
               className="border-2 border-[#2dc071] text-[#2dc071] px-8 py-3 rounded-md hover:scale-105 duration-200"
             >
               READ MORE
-            </button>
+            </Button>
           </div>
         </div>
       </div>
