@@ -72,7 +72,7 @@ export default function ContactSection() {
           {/* Right Column - Image */}
           <div className="relative lg:h-[600px]">
             <Image
-              src="/contact-hero.png"
+              src="/technology.png"
               alt="Family shopping together"
               fill
               className="object-contain"
